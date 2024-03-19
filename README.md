@@ -8,5 +8,4 @@ Throughout this project, I had to work with low-resolution data; some images wer
 
 I designed a custom CNN model with a CBAM attention module and skip connections inspired by Densenet. This model achieved an accuracy of 94.375%. In comparison, the authors of the dataset achieved 66.75% accuracy using a pre-trained ImageNet model for feature extraction and an SVM classifier.
 
-![Mode](https://github.com/PiotrekZe/Fine-grained-visual-classfication-of-fish/images/Mode.png)
-
+![Image of model](images/Mode.png)
