@@ -6,6 +6,11 @@ Fine-grained visual classification (FGVC) involves classifying images belonging 
 
 Throughout this project, I had to work with low-resolution data; some images were as small as 30x25 pixels. Additionally, the images were specifically blurred and tinted blue. To address this, I performed simple image preprocessing: each image was brightened and resized to 64x64 pixels. Furthermore, data augmentation techniques such as horizontal and vertical flipping were applied.
 
+<div style="display:flex;">
+    <img src="images/image.png" alt="Image 1" style="width:50%; padding:10px;">
+    <img src="images/preprocessedImage.png" alt="Image 2" style="width:50%; padding:10px;">
+</div>
+
 I designed a custom CNN model with a CBAM attention module and skip connections inspired by Densenet. This model achieved an accuracy of 94.375%. In comparison, the authors of the dataset achieved 66.75% accuracy using a pre-trained ImageNet model for feature extraction and an SVM classifier.
 
 ![Image of model](images/Mode.png)
