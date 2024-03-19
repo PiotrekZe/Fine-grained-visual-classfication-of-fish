@@ -4,7 +4,7 @@ This repository contains a project prepared for the IVUS2024 conference (29th In
 
 Fine-grained visual classification (FGVC) involves classifying images belonging to the same meta-class. This problem is challenging due to the small differences between classes and the limited amount of data available. In this case, the dataset contains only 794 images of fish belonging to one of twelve classes.
 
-Throughout this project, I had to work with low-resolution data; some images were as small as 30x25 pixels. Additionally, the images were specifically blurred and tinted blue. To address this, I performed simple image preprocessing: each image was brightened and resized to 64x64 pixels. Furthermore, data augmentation techniques such as horizontal and vertical flipping were applied.
+Throughout this project, I had to work with low-resolution data; some images were as small as 30x25 pixels. Additionally, the images were blurry and exhibited a blue shift, a consequence of the nature of the photos taken. To address this, I performed simple image preprocessing: each image was brightened and resized to 64x64 pixels. Furthermore, data augmentation techniques such as horizontal and vertical flipping were applied.
 
 ![Image of model](images/before_after_preprocessing.jpg)
 
