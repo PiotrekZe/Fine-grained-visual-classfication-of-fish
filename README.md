@@ -8,6 +8,12 @@ Throughout this project, I had to work with low-resolution data; some images wer
 
 ![Image of model](images/before_after_preprocessing.jpg)
 
-I designed a custom CNN model with a CBAM attention module and skip connections inspired by Densenet. This model achieved an accuracy of 94.375%. In comparison, the authors of the dataset achieved 66.75% accuracy using a pre-trained ImageNet model for feature extraction and an SVM classifier.
+I designed a custom CNN model with a CBAM attention module (https://arxiv.org/abs/1807.06521) and skip connections inspired by Densenet (https://pytorch.org/hub/pytorch_vision_densenet/). This model achieved an accuracy of 94.375%. In comparison, the authors of the dataset achieved 66.75% accuracy using a pre-trained ImageNet model for feature extraction and an SVM classifier.
 
 ![Image of model](images/Mode.png)
+
+
+# Test Set Results:
+Below are the results of the model on the test set:
+
+![Image of model](images/accuracy_recall_precision_f1.png)
