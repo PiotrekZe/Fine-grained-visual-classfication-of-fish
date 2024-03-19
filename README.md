@@ -6,7 +6,7 @@ Fine-grained visual classification (FGVC) involves classifying images belonging 
 
 Throughout this project, I had to work with low-resolution data; some images were as small as 30x25 pixels. Additionally, the images were specifically blurred and tinted blue. To address this, I performed simple image preprocessing: each image was brightened and resized to 64x64 pixels. Furthermore, data augmentation techniques such as horizontal and vertical flipping were applied.
 
-<div style="display:flex;">
+<div style="display:flex; justify-content: center;">
     <img src="images/image.png" alt="Image 1" style="width:40%; padding:10px;">
     <img src="images/preprocessedImage.png" alt="Image 2" style="width:40%; padding:10px;">
 </div>
