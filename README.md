@@ -1,4 +1,4 @@
-# Fine-grained-visual-classfication-of-fish
+# Fine grained visual classfication of fish
 
 This repository contains a project prepared for the IVUS2024 conference (29th International Conference on Information Society and University Studies). I developed a convolutional neural network (CNN) model for the problem of fine-grained visual classification. The dataset used is the Croatian Fish Dataset prepared for the Machine Vision of Animals and their Behavior Workshop 2015 (doi: 10.5244/C.29.MVAB.6).
 
