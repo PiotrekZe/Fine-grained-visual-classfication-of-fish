@@ -8,9 +8,9 @@
     "attention_map": false
   },
   "file": {
-    "path": "E:/AI/Croatian Fish/croatianFishDataset1-0Dir",
+    "path": "path_to_dataset",
     "image_size": 64,
     "prob_augmentation": 0.9,
-    "path_to_save": "E:/AI"
+    "path_to_save": "path_to_dir"
   }
 }
