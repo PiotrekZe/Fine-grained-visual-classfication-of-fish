@@ -1,0 +1,16 @@
+{
+  "model": {
+    "learning_rate": 1e-4,
+    "weight_decay": 1e-5,
+    "batch_size": 64,
+    "epochs": 100,
+    "device": "cuda",
+    "attention_map": false
+  },
+  "file": {
+    "path": "D:/Databases/20/fish_net/Image_Library",
+    "image_size": 64,
+    "prob_augmentation": 0.9,
+    "path_to_save": "E:/Projects/FGVC/results_FishNet"
+  }
+}
