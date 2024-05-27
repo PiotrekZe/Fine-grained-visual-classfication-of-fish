@@ -90,4 +90,5 @@ def main(num):
 
 
 if __name__ == '__main__':
-    main(7)
+    for i in range(40, 50):
+        main(i)

@@ -5,7 +5,8 @@ results_Leaf/
 results_Fish/
 results_LeafSmall/
 results_Insect/
-Fish/
-Insect/
-Leaf/
-LeafSmall/
+.Fish/
+.Insect/
+.Leaf/
+.LeafSmall/
+.LeafSmaller/

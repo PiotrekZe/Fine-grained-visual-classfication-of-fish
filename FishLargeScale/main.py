@@ -76,4 +76,5 @@ def main(num):
 
 
 if __name__ == '__main__':
-    main(5)
+    for i in range(30,40):
+        main(i)

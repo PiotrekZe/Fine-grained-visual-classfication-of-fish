@@ -23,7 +23,7 @@ def main(num):
     prob_augmentation = config_data['file']['prob_augmentation']
     path_to_save = config_data['file']['path_to_save']
 
-    dataset = Dataset.Dataset(path, image_size, prob_augmentation)
+    dataset = Dataset.Dataset(path)
     X_train, X_test, y_train, y_test = dataset.read_dataset()
 
     train_dataset = CustomDataset.LeafDataset(X_train, y_train, image_size)
@@ -76,5 +76,4 @@ def main(num):
 
 
 if __name__ == '__main__':
-    for i in range(50,70):
-        main(i)
+    main(0)

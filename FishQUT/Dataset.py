@@ -29,8 +29,8 @@ class Dataset:
         X_train, X_test, y_train, y_test = train_test_split(images, targets, test_size=0.2, random_state=42,
                                                             stratify=targets)
 
-        if self.prob != 0.0:
-            X_train, y_train = self.__augment_data(X_train, y_train)
+        # if self.prob != 0.0:
+        #     X_train, y_train = self.__augment_data(X_train, y_train)
 
         return X_train, X_test, y_train, y_test
 
