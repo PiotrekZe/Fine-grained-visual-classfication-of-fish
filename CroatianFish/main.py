@@ -3,9 +3,9 @@ import CustomDataset
 from torch.utils.data import DataLoader
 import torch.nn as nn
 import torch.optim as optim
-from ..Model import RunModel
-from ..Model import utils
-from ..Model import CNNModel
+import RunModel
+import utils
+import CNNModel
 
 
 def main(num):
@@ -37,9 +37,6 @@ def main(num):
     optimizer = optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
 
     run_model = RunModel.RunModel(epochs, device, train_loader, test_loader)
-
-    list_acc = []
-    list_model = []
 
     list_train_loss, list_train_accuracy, list_train_recall, list_train_precision, list_train_f1 = [], [], [], [], []
     list_test_loss, list_test_accuracy, list_test_recall, list_test_precision, list_test_f1 = [], [], [], [], []
